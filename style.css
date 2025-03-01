@@ -1,0 +1,27 @@
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.opacity-80 {
+    opacity: 0.8;
+}
