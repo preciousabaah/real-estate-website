@@ -1,9 +1,6 @@
 
 .buy-lease{
     font-weight:550;
-    font-size: 75px;
-    font-family: sans-serif;
-    
 }
 
 body{
@@ -36,6 +33,9 @@ h5{
     width: 100%;
     height: 250px;
     border-radius: 40px;
+    display: inline-block;
+    box-shadow: 4px 7px 0px;
+    cursor: pointer;
 }
 
 .rating-card{
@@ -56,25 +56,6 @@ h5{
 body{
     background-color: rgba(250, 235, 215, 0.094);
  }
-.container1{
-     height: 400px;
-    padding-top:100px;
-    
-}
-
-pre{font-size: 16px;
-    font-weight:400 ;
-    font-family: sans-serif;
-    } 
-
-footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-     }
-
 
      /*contact-us/css*/
 
@@ -101,12 +82,18 @@ footer {
      
 
     .responsive3{
-        width: 70%;
-        height:85%;
-        border-radius: 15px;
-    }
-
-
+        width: 100%;
+        height: auto;
+        border-radius: 40px;
+      }
+      
+      .card{
+        width: 28rem;
+        border: none solid; 
+        border-radius: 35px;
+        height: 480px;
+        background-color:rgba(111, 109, 107, 0.256)
+      }
 
     /*more-info*/
 
