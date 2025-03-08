@@ -82,29 +82,27 @@ body{
      
 
     .responsive3{
-        width: 100%;
-        height: auto;
         border-radius: 40px;
       }
       
       .card{
-        width: 28rem;
+        width: 70%;
         border: none solid; 
         border-radius: 35px;
         height: 480px;
-        background-color:rgba(111, 109, 107, 0.256)
+        background-color:rgba(111, 109, 107, 0.256);
       }
 
+      
     /*more-info*/
 
     .Why-choose{
         border: none solid;
-        border-radius: 20px;
         padding: 10px;
         height: 60%;
         width: auto;
        margin: auto;
+       margin-top: -100px;
+       background-color:whitesmoke;
+
     }
-
-
-    
