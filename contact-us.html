@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="../real estate website/mystyle.css">
+  <link rel="stylesheet" href="mystyle.css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
   <!--navbar-links-->
 
   <nav class="navbar navbar-expand-sm bg-light navbar-light">
-    <div class="container-fluid">
+    <div class="container">
       <img src="images/logo3.jpg" alt="logo" height="50px" width="50px">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -45,127 +45,200 @@
     </div>
   </div>
 
-  <div class="container">
-    <a href="more-info.html" class="btn btn-warning rounded mt-3 img-fluid ">for more info</a>
-  </div>
 
   <div class="container">
     <div class="row mt-5">
       <div class="col mt-5">
-        <h3>Contact</h3>
-        <h5 class="text-danger">
-          <pre>08124067936
-             Office@real estate.com</pre>
-        </h5>
+        <ul>
+        <li class="list-group-item"><h3>Contact</h3></li>
+          <li class="list-group-item">08124067936</li>
+           <li class="list-group-item">Office@real estate.com</li>
+       </ul>
       </div>
       <div class="col mt-5">
-        <h3>Address</h3>
-        <h5>
-          <pre>jecob nnwazuta street,
-           gbagada.</pre>
-        </h5>
+        <ul>
+        <li class="list-group-item"><h3>Address</h3></li>
+          <li class="list-group-item">jecob nnwazuta street, gbagada.</li>
+        </ul>
       </div>
       <div class="col mt-5">
-        <h3>Working hours</h3>
-        <h5>
-          <pre>Mon – Fri 9am – 4pm
+          <ul>
+            <li class="list-group-item"><h3>Working hours</h3></li>
+            <li class="list-group-item">Mon – Fri 9am – 4pm</li>
 
-           Saturday 10:00 – 14:00
+           <li class="list-group-item">Saturday 10:00 – 14:00</li>
         
-           Sunday – Non working day
-         </pre>
-        </h5>
+          <li class="list-group-item">Sunday – Non working day</li> 
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 
-
+   <h2 class="text-center mt-5">Send us a message </h2>
   <div class="container">
     <div class="row">
       <form action=" ">
-        <div>
-          <label for="name"></label>
-          <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+        <div class="d-flex">  
+          <label for="name">NAME:</label>
+          <input type="text" class="form-control ms-2" id="name" placeholder="Name" name="name">
 
         </div>
-
-        <div>
-          <label for="email"></label>
-          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-
-        </div>
-
-
-        <div>
-          <label for="date"></label>
-          <input type="date" class="form-control" id="date" placeholder="Date" name="date">
+        <br>
+        <div class="d-flex">
+          <label for="email">EMAIL:</label>
+          <input type="email" class="form-control ms-2" id="email" placeholder="Enter email" name="email">
 
         </div>
+        <br>
 
-        <div>
-          <label for="comment"></label>
-          <textarea class="form-control" rows="4" id="comment" placeholder="Write your message here..."
+        <div class="d-flex">
+          <label for="date">DATE:</label>
+          <input type="date" class="form-control ms-3" id="date" placeholder="Date" name="date">
+
+        </div>
+        <br>
+
+        <div class="d-flex">
+          <label for="comment">MESSAGE:</label>
+          <textarea class="form-control ms-2" rows="4" id="comment" placeholder="Write your message here..."
             name="text"></textarea>
         </div>
 
         <div class="mt-2 float-end">
-          <button type="submit" class="btn btn-warning rounded">Send</button>
+          <button type="submit" class="btn btn-warning rounded">Send message</button>
         </div>
 
       </form>
     </div>
   </div>
 
-  <div class="container-fluid footer p-5 mt-5" style="background: #100e0ec6;">
-   <div class="row text-white">
-    <div class="col-sm">
-     <pre>
-      Home
-
-      Rent
-      Buy
-      Add property
-      Info
-      Contact
-      Facebook
-      Instagram
-      Youtube
-    </pre>
-   </div>
-
-   <div class="col-sm">
-    <pre>
-    Contact
-
-    office@real estate.com
-    +234 8124067936
-   </pre>
-  </div>
-   
-
- <div class="col-sm">
-  <pre>
-    Address
-    
-    peace estate gbagada
-   jecob nwazuta street
- </pre>
-</div>
- 
-<div class="col-sm">
-  <pre>
-    Rent an apartment in lagos
-    Buy an apartment in lagos
-    Rent a house in lagos
-    Buy a house in lagos
-    Information for buyers and tenants
-    Information for owners
- </pre>
-</div>
-
- </div>
-</div>
   
+  <!-- Footer -->
+<footer class="text-center text-lg-start mt-5 text-white footer-color">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Real estate
+          </h6>
+          <p>
+            Unlock long-term growth and financial security through real estete investing.
+            our platform offers a diverse portfolio of properties to suit your investment goals
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <a href="#!" class="text-reset footer-links">About us</a>
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">privacy policy</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">price list</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">blog</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <a href="#!" class="text-reset footer-links">info</a>
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4"><a href="#!" class="text-reset footer-links">Contact</a></h6>
+          <p><i class="fas fa-home me-3"></i> peace estate gbagada</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            adaberechiprecious@gimal.come
+          </p>
+          <p><i class="fas fa-phone me-3"></i>  08124067936</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2025 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">PRECIOUS.LTD</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+       
+
 
 
 
