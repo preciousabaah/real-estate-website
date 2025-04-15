@@ -52,6 +52,7 @@ h5{
 }
 
 .ratings{
+    height: 100%;
     border: none solid;
     border-radius: 30px;
     padding: 20px;
