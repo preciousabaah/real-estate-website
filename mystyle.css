@@ -68,11 +68,6 @@ body{
     background-color:rgba(67, 39, 3, 0.094);
  }
 
- .img{
-    border-radius: 40px;
- }
-
-
      /*properties*/
 
      .responsive2{
@@ -119,3 +114,15 @@ body{
    .footer-links{
     text-decoration: none;
    }
+
+   
+ .img{
+    border-radius: 40px;
+ }
+
+ .image2{
+    width: 100%;
+    height: 246px;
+    object-fit: cover;
+    object-position: top;
+ }
