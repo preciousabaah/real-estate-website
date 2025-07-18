@@ -1,0 +1,128 @@
+
+.buy-lease{
+    font-weight:550;
+}
+
+body{
+    font-family: sans-serif;
+   
+}
+
+h5{
+    font-size: 16px;
+    font-weight:600 ;
+    font-family: sans-serif;
+}
+
+.h5{
+    font-size: 20px;
+    font-weight:600 ;
+    font-family: sans-serif;
+
+}
+
+.Experience-Luxury-img{
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+ .why-home-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 40px;
+    display: inline-block;
+    box-shadow: 4px 7px 0px;
+    cursor: pointer;
+}
+
+.rating-card{
+    border: none solid;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 4px 7px 0px;
+    
+    
+}
+
+
+.icon{
+    text-decoration: none;
+}
+
+.ratings{
+    height: 100%;
+    border: none solid;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(86, 86, 4, 0.256);
+   
+   
+}
+
+
+/*about-us/css*/
+
+body{
+    background-color:rgba(67, 39, 3, 0.094);
+ }
+
+     /*properties*/
+
+     .responsive2{
+        width: 100%;
+        height: auto;
+        border-radius: 40px;
+    }
+     
+
+    .responsive3{
+        border-radius: 40px;
+        height: 250px;
+      }
+      
+      .card{
+        width: 100%;
+        border: none solid; 
+        border-radius: 40px;
+        height: 90%;
+        background-color:rgba(111, 109, 107, 0.256);
+      }
+
+    
+    /*more-info*/
+
+    .Why-choose{
+        border: none solid;
+        padding: 40px;
+        height: auto;
+        width: 600px;
+       margin: auto;
+       margin-top: -100px;
+       background-color:whitesmoke; 
+
+    }
+
+
+    .footer-color{
+    background-color: rgba(15, 8, 8, 0.865);
+   }
+
+
+
+   .footer-links{
+    text-decoration: none;
+   }
+
+   
+ .img{
+    border-radius: 40px;
+ }
+
+ .image2{
+    width: 100%;
+    height: 246px;
+    object-fit: cover;
+    object-position: top;
+ }
